@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cindy Tran - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Landing Page with Typewriter Effect -->
+    <div id="landing-page" class="landing-page active">
+        <h1 id="typewriter-text" class="typewriter-text"></h1>
+    </div>
+
+    <!-- Secondary Landing Page with Draggable Boxes -->
+    <div id="secondary-landing" class="secondary-landing">
+        <div class="static-name-section">
+            <h1 class="static-name">CINDY TRAN</h1>
+            <p class="static-subtitle">Data Science B.Sc<br>International Affairs B.Sc</p>
+        </div>
+        
+        <div class="draggable-box box-overview" draggable="true" data-page="overview">
+            <span>OVERVIEW</span>
+        </div>
+        <div class="draggable-box box-portfolio" draggable="true" data-page="portfolio">
+            <span>PORTFOLIO</span>
+        </div>
+        <div class="draggable-box box-research" draggable="true" data-page="research">
+            <span>RESEARCH</span>
+        </div>
+    </div>
+
+    <!-- Overview Page -->
+    <div id="overview-page" class="content-page">
+        <nav class="navbar">
+            <button class="nav-logo" data-page="secondary">Cindy Tran</button>
+            <div class="nav-buttons">
+                <button class="nav-btn btn-overview" data-page="overview">Overview</button>
+                <button class="nav-btn btn-portfolio" data-page="portfolio">Portfolio</button>
+                <button class="nav-btn btn-research" data-page="research">Research</button>
+            </div>
+        </nav>
+        
+        <div class="overview-content">
+            <div class="goals-section">
+                <h2>Current goals</h2>
+                <ul>
+                    <li>Obtain my B.Sc in Data Science and International Affairs from George Washington University</li>
+                    <li>Obtain the AWS Certified AI Practitioner Certificate</li>
+                    <li>Obtain a Summer internship for 2026</li>
+                </ul>
+            </div>
+
+            <div class="goals-section">
+                <h2>Future goals</h2>
+                <ul>
+                    <li>Work in management consulting</li>
+                    <li>Become a data analyst/data storyteller</li>
+                    <li>Testing testing</li>
+                </ul>
+            </div>
+
+            <div class="goals-section">
+                <h2>I geek out about</h2>
+                <ul>
+                    <li>Jazz, specifically fusion jazz, specifically Spain by Chick Corea</li>
+                    <li>Anything chess</li>
+                    <li>Intuitive and aesthetically pleasing charts</li>
+                    <li>1960s women's fashion (I'm sewing a shift dress of my own)</li>
+                    <li>Graphic design</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Page -->
+    <div id="portfolio-page" class="content-page">
+        <nav class="navbar">
+            <button class="nav-logo" data-page="secondary">Cindy Tran</button>
+            <div class="nav-buttons">
+                <button class="nav-btn btn-overview" data-page="overview">Overview</button>
+                <button class="nav-btn btn-portfolio" data-page="portfolio">Portfolio</button>
+                <button class="nav-btn btn-research" data-page="research">Research</button>
+            </div>
+        </nav>
+        
+        <div class="portfolio-content">
+            <div class="portfolio-section">
+                <h2 class="underlined-header">Charts</h2>
+                <div class="grid-container charts-grid">
+                    <div class="portfolio-item chart-item" data-name="Growth and Pay by Education Level" data-color="#74342b">
+                        <img src="growthpay.png" alt="Growth and Pay of Each Occupations Chart" class="portfolio-image">
+                    </div>
+                    <div class="portfolio-item chart-item" data-name="Climate Change Visualization" data-color="#8fa5d1">
+                        <div class="item-placeholder"></div>
+                    </div>
+                    <div class="portfolio-item chart-item" data-name="Population Growth Trends" data-color="#3a1312">
+                        <div class="item-placeholder"></div>
+                    </div>
+                    <div class="portfolio-item chart-item" data-name="Energy Consumption Data" data-color="#8fa5d1">
+                        <div class="item-placeholder"></div>
+                    </div>
+                    <div class="portfolio-item chart-item" data-name="Economic Indicators" data-color="#74342b">
+                        <div class="item-placeholder"></div>
+                    </div>
+                    <div class="portfolio-item chart-item" data-name="Social Media Analytics" data-color="#8fa5d1">
+                        <div class="item-placeholder"></div>
+                    </div>
+                    <div class="portfolio-item chart-item" data-name="Transportation Patterns" data-color="#3a1312">
+                        <div class="item-placeholder"></div>
+                    </div>
+                    <div class="portfolio-item chart-item" data-name="Healthcare Metrics" data-color="#8fa5d1">
+                        <div class="item-placeholder"></div>
+                    </div>
+                    <div class="portfolio-item chart-item" data-name="Education Statistics" data-color="#74342b">
+                        <div class="item-placeholder"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-section">
+                <h2 class="underlined-header">Graphic design</h2>
+                <div class="grid-container design-grid">
+                    <div class="portfolio-item design-item" data-name="Brand Identity Series" data-color="#74342b" data-project="brand">
+                        <div class="item-placeholder"></div>
+                    </div>
+                    <div class="portfolio-item design-item" data-name="Event Poster Collection" data-color="#8fa5d1" data-project="event">
+                        <div class="item-placeholder"></div>
+                    </div>
+                    <div class="portfolio-item design-item" data-name="Social Campaign" data-color="#3a1312" data-project="social">
+                        <div class="item-placeholder"></div>
+                    </div>
+                    <div class="portfolio-item design-item" data-name="Magazine Layouts" data-color="#3a1312" data-project="magazine">
+                        <div class="item-placeholder"></div>
+                    </div>
+                    <div class="portfolio-item design-item" data-name="Typography Exploration" data-color="#74342b" data-project="typo">
+                        <div class="item-placeholder"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Research Page -->
+    <div id="research-page" class="content-page">
+        <nav class="navbar">
+            <button class="nav-logo" data-page="secondary">Cindy Tran</button>
+            <div class="nav-buttons">
+                <button class="nav-btn btn-overview" data-page="overview">Overview</button>
+                <button class="nav-btn btn-portfolio" data-page="portfolio">Portfolio</button>
+                <button class="nav-btn btn-research" data-page="research">Research</button>
+            </div>
+        </nav>
+        
+        <div class="research-content">
+            <div class="research-item">
+                <div class="research-preview"></div>
+                <div class="research-text">
+                    <h3>Room Occupancy Detection Using IoT Sensor Data and Machine Learning</h3>
+                    <p>Building energy consumption accounts for approximately 40% of total energy usage in developed countries, with Heating, Ventilation, and Air Conditioning (HVAC) systems and lighting representing the largest contributors to this consumption. A significant portion of this energy, estimated at 20-30%, is wasted due to inefficient operation of these systems in unoccupied spaces. Traditional occupancy detection methods, primarily relying on passive infrared (PIR) motion sensors, suffer from fundamental limitations including high false negative rates for stationary occupants, sensitivity to environmental factors, and inability to provide occupancy density information.</p>
+                </div>
+            </div>
+
+            <div class="research-item">
+    <div class="research-preview pdf-preview">
+        <iframe 
+            src="Fracture.pdf" 2 
+            class="pdf-iframe"
+            title="Left-Right Media Portrayal PDF">
+        </iframe>
+    </div>
+    <div class="research-text">
+        <h3>Left-Right Media Portrayal of the 2023 Government Shutdown</h3>
+        <p>Content analysis of left-right media coverage examining the agenda-setting and framing in news coverage surrounding the 2023 government shutdown. Through comprehensive analysis of 252 news articles from Left, Right, and Centrist media outlets, this study compares how each venue frames the event using six generic framing categories: conflict, human-interest, economic impact, morality, responsibility, and nationalization.</p>
+        <a href="Fracture.pdf" target="_blank" class="pdf-link">Open in New Tab</a>
+    </div>
+</div>
+
+    <!-- Chart Detail Popup -->
+    <div id="chart-popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <h3 id="popup-title"></h3>
+            <p id="popup-description"></p>
+        </div>
+    </div>
+
+    <!-- Design Gallery Popup -->
+    <div id="design-popup" class="popup design-popup">
+        <div class="popup-content design-popup-content">
+            <span class="close-btn">&times;</span>
+            <div class="gallery-container">
+                <button class="gallery-nav prev-btn">&larr;</button>
+                <div class="gallery-image"></div>
+                <button class="gallery-nav next-btn">&rarr;</button>
+            </div>
+            <div class="gallery-counter"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
